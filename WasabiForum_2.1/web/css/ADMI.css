@@ -1,0 +1,172 @@
+body{
+    background:#C7C7C7;
+
+}
+
+
+.cntizq{
+    display:flex;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    align-items:center;
+    justify-content:center;
+}
+
+
+.boton-pestana{
+    text-align:center;
+    font-family:verdana;
+    font-size:120%;
+    color:white;
+    width:200px;
+    display:inline-block;
+    background-color:#66ebcc;
+    -webkit-box-shadow: 13px 9px 5px 5px rgba(0,0,0,0.8);
+    -moz-box-shadow: 13px 9px 5px 5px rgba(0,0,0,0.8);
+    box-shadow: 13px 9px 5px 5px rgba(0,0,0,0.8);
+
+}
+
+
+div#Area:active {
+    background-color:#13cd89;
+}
+
+div#Profesores:active {
+    background-color:#13cd89;
+}
+
+div#Estudios:active{
+    background-color:#13cd89;
+}
+
+.Contenedor{
+    height:480px;
+    width:600px;
+    display:flex;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    background-color:#13cd89;
+    padding:30px;
+    align-items:center;
+    justify-content:center;
+    -webkit-box-shadow: 13px 9px 5px 5px rgba(0,0,0,0.8);
+    -moz-box-shadow: 13px 9px 5px 5px rgba(0,0,0,0.8);
+    box-shadow: 13px 9px 5px 5px rgba(0,0,0,0.8);
+}
+
+.Divsmoviles{
+    height:480px;
+    width:600px;
+
+}
+
+.Opcciones{
+    position:absolute;
+    display:flex;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    flex-direction:column;
+    width:400px;
+    justify-content:space-around;
+    height:400px; 
+    text-align:center;
+    font-size:230%;
+
+}
+.BotonesOpc{
+    text-align:center;
+    background:#20b2aa;
+    margin:10px;
+    display:flex;
+    height:50px;
+    color:white;
+    align-items:center;
+    align-content:center;
+    justify-content:center;
+}
+
+.PantallasOperaciones{
+    position:absolute;
+    text-align:center;
+    margin:0 auto;
+    height:480px;
+    width:600px;
+    background-color:#13cd89;
+    color:white;
+    -webkit-box-shadow: 13px 9px 5px 5px rgba(0,0,0,0.8);
+    -moz-box-shadow: 13px 9px 5px 5px rgba(0,0,0,0.8);
+    box-shadow: 13px 9px 5px 5px rgba(0,0,0,0.8);
+}
+
+#opcEstudios{
+    visibility:hidden;
+}
+#opcProfesores{
+    visibility:hidden;
+}
+
+#PantallaNuevaArea{
+
+}
+#PantallaEliminarArea{
+
+    visibility:hidden;
+
+}
+
+#PantallaNuevoProfesor{
+
+    visibility:hidden;   
+}
+
+#PantallaEliminarProfesor{
+
+    visibility:hidden;
+}
+
+#PantallaNuevoGrupo{
+
+    visibility:hidden;
+}
+
+#PantallaEliminarGrupo{
+
+    visibility:hidden;
+
+}
+/* Modifica el tamaño y estilo del mensaje de error del JQuery Validate*/
+
+label.error {
+    display:block;
+    width:100%;
+    color: red;
+
+}
+
+.tamañoText1{
+    font-size:200%;
+}
+.tamañoText2{
+    font-size:105%;
+
+}
+.tamañoText3{
+    font-size: 170%;
+    font-weight: bold;
+
+}
+h3{
+    font-size:300%; 
+}
+.select {
+    background: transparent;
+    width: 268px;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 1;
+    border: 0;
+    border-radius: 0;
+    height: 34px;
+    -webkit-appearance: none;
+}

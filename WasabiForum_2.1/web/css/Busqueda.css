@@ -1,0 +1,12 @@
+body{
+     width:100%;margin:auto;min-width:600px;max-width:100%;
+}
+.encabezados{
+    font-family: arial;
+    font-size: 23px;
+    font-weight: bolder;
+    
+}
+label.error{
+    color:red;
+}

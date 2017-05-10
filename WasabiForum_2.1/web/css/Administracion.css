@@ -1,0 +1,159 @@
+body{
+    background-image: url("../img/oceano.jpg");
+}
+
+
+.cntizq{
+    display:flex;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    align-items:center;
+    justify-content:center;
+}
+
+
+
+
+
+
+.boton-pestana{
+    text-align:center;
+    font-family:verdana;
+    font-size:120%;
+    color:white;
+    width:200px;
+    display:inline-block;
+    background-color:#66ebcc;
+   
+}
+
+
+ div#Area:active {
+   background-color:#13cd89;
+   }
+   
+   div#Profesores:active {
+   background-color:#13cd89;
+   }
+   
+   div#Estudios:active{
+     background-color:#13cd89;
+   }
+
+.Contenedor{
+     height:480px;
+     width:600px;
+     display:flex;
+     display:-webkit-flex;
+    display:-ms-flexbox;
+     background-color:#13cd89;
+     padding:30px;
+    align-items:center;
+    justify-content:center;
+}
+
+.Divsmoviles{
+    height:480px;
+     width:600px;
+     
+}
+
+.Opcciones{
+       position:absolute;
+       display:flex;
+       display:-webkit-flex;
+    display:-ms-flexbox;
+       flex-direction:column;
+       width:400px;
+       justify-content:space-around;
+       height:400px; 
+       text-align:center;
+      font-size:230%;
+   }
+   .BotonesOpc{
+     text-align:center;
+     background:#1D3871;
+     margin:10px;
+     height:50px;
+     color:white;
+   }
+   
+   .PantallasOperaciones{
+       position:absolute;
+       text-align:center;
+       margin:0 auto;
+        height:480px;
+        width:600px;
+        background-color:#13cd89;
+   }
+   
+   #opcEstudios{
+       visibility:hidden;
+   }
+   #opcProfesores{
+       visibility:hidden;
+   }
+   
+   #PantallaNuevaArea{
+       
+   }
+   #PantallaEliminarArea{
+      
+       visibility:hidden;
+       
+   }
+   
+   #PantallaNuevoProfesor{
+     
+      visibility:hidden;   
+   }
+   
+   #PantallaEliminarProfesor{
+       
+       visibility:hidden;
+   }
+   
+   #PantallaNuevoGrupo{
+     
+      visibility:hidden;
+   }
+   
+   #PantallaEliminarGrupo{
+      
+       visibility:hidden;
+       
+   }
+/* Modifica el tamaño y estilo del mensaje de error del JQuery Validate*/
+
+label.error {
+    display:block;
+    width:100%;
+    color: red;
+
+}
+
+.tamañoText1{
+    font-size:200%;
+}
+.tamañoText2{
+    font-size:105%;
+    
+}
+.tamañoText3{
+    font-size: 170%;
+    font-weight: bold;
+    
+}
+h3{
+    font-size:300%; 
+}
+   
+   
+
+
+   
+   
+
+   
+   
+
