@@ -13,7 +13,7 @@ public class DataBase {
     private Connection c = null;
     private Statement s = null;
     
-    private final String nombre = "jdbc:mysql://localhost/wasbiforum";
+    private final String nombre = "jdbc:mysql://localhost/wasabiforum";
     private final String usuario = "root";
 
     private final String password = "n0m3l0";

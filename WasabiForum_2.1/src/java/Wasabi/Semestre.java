@@ -17,14 +17,13 @@ public class Semestre {
     
     public String cargarComboSemestres() throws SQLException {
 
-        db.conectar();
-
         ResultSet rsSemestre;
         String idSemestre;
         String nombreSemestre;
         String combos = "";
         
         try {
+            db.conectar();
             rsSemestre = db.consulta("select * from semestre;");
             while (rsSemestre.next()) {
                 idSemestre = rsSemestre.getString("idSemestre");
